@@ -1,5 +1,9 @@
 #folder
 .idea/*
 out/*
+<<<<<<< HEAD
 #class files
+=======
+# class files
+>>>>>>> aff4aed7cf6d778a7fed749f49744bc21eae4c11
 *.class

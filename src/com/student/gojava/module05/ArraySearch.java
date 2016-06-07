@@ -13,12 +13,11 @@ public class ArraySearch {
         System.out.println("The maximum number of array = " + max);
 
         int min = ar1[0];
-        for (int i=0;i<ar1.length;i++){
-            if (ar1[i]<min){
+        for (int i=0; i < ar1.length; i++){
+            if (ar1[i] < min){
                 min = i;
             }
         }
-        System.out.println("Hhe Minimum number of array = "+ min);
+        System.out.println("The minimum number of array = "+ min);
     }
-
 }

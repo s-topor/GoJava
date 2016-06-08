@@ -5,10 +5,7 @@ import java.util.List;
 /**
  * Created by toporko on 30.05.2016.
  */
-public class Flower {
-    List<Aster>asters;
-    List<Daisy>daisies;
-    List<Rose>roses;
-    List<Tulip>tulips;
+abstract public  class Flower {
+
 
 }

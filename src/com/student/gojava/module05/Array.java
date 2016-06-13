@@ -38,6 +38,7 @@ public class Array implements InterfaceArray {
                 //Если находим, запоминаем его индекс
                 if (arr[j] < min) {
                     min1 = arr[j];
+                    min1 = j;
                 }
             }
             /*Если нашелся элемент, меньший, чем на текущей позиции, меняем их местами*/
@@ -48,6 +49,7 @@ public class Array implements InterfaceArray {
             }
         }
     }
+
     @Override
     public String toString(){
         String arrayToStr = "";

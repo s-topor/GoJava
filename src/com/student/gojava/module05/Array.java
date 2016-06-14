@@ -29,7 +29,6 @@ public class Array implements InterfaceArray {
     public void selectionSort() {
 
         for (int i = 0; i < arr.length; i++) {
-            System.out.print("[" + arr[i] + "]");
             int min = arr[i];
             int min1 = i;
 
@@ -37,7 +36,8 @@ public class Array implements InterfaceArray {
             for (int j = i + 1; j < arr.length; j++) {
                 //Если находим, запоминаем его индекс
                 if (arr[j] < min) {
-                    min1 = arr[j];
+                    min = arr[j];
+                    min1 = j;
                 }
             }
             /*Если нашелся элемент, меньший, чем на текущей позиции, меняем их местами*/
@@ -48,7 +48,8 @@ public class Array implements InterfaceArray {
             }
         }
     }
-    @Override
+
+
     public String toString(){
         String arrayToStr = "";
         for (int i = 0; i < arr.length; i++) {

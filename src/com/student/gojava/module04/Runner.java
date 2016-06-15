@@ -2,7 +2,7 @@ package com.student.gojava.module04;
 
 
 import java.util.InputMismatchException;
-import java.util.Scanner;
+
 
 public class Runner {
     public static void main(String[] args) {

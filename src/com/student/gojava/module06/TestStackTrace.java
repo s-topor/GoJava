@@ -1,8 +1,24 @@
 package com.student.gojava.module06;
+public class TestStackTrace{
+    TestStackTrace()
+    {
+        try {
+            devideByZero();
+        }catch (ArithmeticException e){
+            System.out.println("Dear /do not divide by zero");
+        }
 
-/**
- * Created by toporko on 15.06.2016.
- */
-public class TestStackTrace {
-    Tesr
+    }
+
+    int devideByZero()
+    {
+        return 25/0;
+    }
+    public static void main(String[] args) {
+        new TestStackTrace();
+
+    }
 }
+
+
+

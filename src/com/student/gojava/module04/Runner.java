@@ -5,12 +5,16 @@ import java.util.InputMismatchException;
 
 
 public class Runner {
-    public static void main(String[] args)  {
-
+    public static void main(String[] args) {
         Distance distanc = new Distance();
-        distanc.distance();
-        System.out.println("\n"+ "And now we calculate the figures area"+"\n");
+        try {
+            distanc.distance();
+        } catch (InputMismatchException e) {
+            System.out.println("Несоответствие типа вводимого значения" );
+        }
+
         AreaFigure areaFigure = new AreaFigure();
+        System.out.println("And now we calculate the figures area" );
         areaFigure.getAreaFigure();
     }
 }

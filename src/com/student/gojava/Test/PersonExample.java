@@ -1,4 +1,4 @@
-package com.student.gojava.module06;
+package com.student.gojava.Test;
 
 
 import java.util.ArrayList;

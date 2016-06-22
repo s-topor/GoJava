@@ -1,4 +1,5 @@
 package com.student.gojava.module04;
+
 //Создать класс преобразующий значение температуры по шкале Цельсия в значение по шкале Фаренгейта и в обратном направлении.
 
 //  Градусы по Фаренгейту = (градусы по Цельсию x 1.8) + 32
@@ -32,9 +33,8 @@ public class Converter {
             System.out.println("Temperature in Celsius was: "+ returnTemperatureInCelsius);
 
         }catch (InputMismatchException e){
-            System.out.println("несоответствие типа вводимого значение");
+            System.out.println("Несоответствие типа вводимого значение");
         }
 
     }
 }
-

@@ -6,4 +6,5 @@ package com.student.gojava.module06;
 public class Stock {
     Stock stock = new Stock();
 
+
 }

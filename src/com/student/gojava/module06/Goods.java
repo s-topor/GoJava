@@ -10,6 +10,7 @@ public class Goods {
     String name;
     int price;
 
+
     List<Carcase>carcaseList;
     List<Wheels>wheelsList;
     List<Motor>motorList;

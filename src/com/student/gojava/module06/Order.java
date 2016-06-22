@@ -13,6 +13,6 @@ public class Order {
         public void delGoods() {
         };
 
-        public void cencelOrder();
+        public void cencelOrder(){};
 
 }

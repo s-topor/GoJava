@@ -9,7 +9,7 @@ public class Cashbox {
     double deleteFromCashbox;
     double cancelCashbox;
 
-    Cashbox cashbox = new Cashbox();
+
 
 
 }

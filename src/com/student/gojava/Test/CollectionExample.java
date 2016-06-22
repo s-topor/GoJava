@@ -1,10 +1,10 @@
-package com.student.gojava.module06;
+package com.student.gojava.Test;
 
-import com.student.gojava.module05.Array;
+
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
+
 
 public class CollectionExample {
     public static void main(String[] args) {
@@ -15,7 +15,6 @@ public class CollectionExample {
         for (Integer elements : arrayList){
             System.out.println(elements);
         }
-
 
     }
 }

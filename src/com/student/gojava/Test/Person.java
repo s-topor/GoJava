@@ -1,4 +1,4 @@
-package com.student.gojava.module06;
+package com.student.gojava.Test;
 
 /**
  * Created by toporko on 14.06.2016.

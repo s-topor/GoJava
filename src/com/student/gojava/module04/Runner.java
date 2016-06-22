@@ -2,7 +2,7 @@ package com.student.gojava.module04;
 
 
 import java.util.InputMismatchException;
-import java.util.Scanner;
+
 
 public class Runner {
     public static void main(String[] args) {
@@ -15,7 +15,12 @@ public class Runner {
 
         AreaFigure areaFigure = new AreaFigure();
         System.out.println("And now we calculate the figures area" );
-        areaFigure.getAreaFigure();
+        try {
+            areaFigure.getAreaFigure();
+        }catch (InputMismatchException e){
+            System.out.println("Несоответствие типа вводимого значения");
+        }
+
     }
 }
 

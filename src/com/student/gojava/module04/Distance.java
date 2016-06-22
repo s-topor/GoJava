@@ -16,7 +16,9 @@ package com.student.gojava.module04;
 import java.util.Scanner;
 
 public class Distance {
-    public static void main(String[]args){
+
+    public void distance(){
+        System.out.println("We calculate the distance between two points! ");
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please, enter a coordinate point 'x1' ");
         double x1 = scanner.nextDouble();

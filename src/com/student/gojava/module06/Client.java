@@ -1,16 +1,20 @@
 package com.student.gojava.module06;
 import java.util.Random;
+import java.util.Scanner;
+
 /**
- метод инициализации кошелька
+ этот метод totalSumPurchases  запрашивает ввод имени клиента и рандомом определяет содержимое его кошелька
  */
 public class Client {
-    String name;
+    public String name ;
     public int totalSumPurchases;
 
     public  void totalSumPurchases() {
-
-            Random randomCashClient = new Random();
-            int c = randomCashClient.nextInt(200);
-            System.out.println("Client have money " + c + " y.e");
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter client name ");
+        String name = scanner.nextLine();
+        Random randomCashClient = new Random();
+        int cash = randomCashClient.nextInt(200);
+        System.out.println( name + " have money " + cash + " y.e " );
     }
 }

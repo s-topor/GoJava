@@ -5,9 +5,15 @@ package com.student.gojava.module06;
  */
 public class Cashbox {
 
-    double addToCashbox;
-    double deleteFromCashbox;
-    double cancelCashbox;
+    void addToCashbox(){
+
+    };
+    void deleteFromCashbox(){
+
+    };
+    void cancelCashbox(){
+
+    };
 
 
 

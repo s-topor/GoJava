@@ -4,12 +4,9 @@ import java.awt.*;
 import java.util.List;
 
 /**
-Класс Товар
+Класс Товары содержит список товаров
  */
 public class Goods {
-    String name;
-    int price;
-
 
     List<Carcase>carcaseList;
     List<Wheels>wheelsList;

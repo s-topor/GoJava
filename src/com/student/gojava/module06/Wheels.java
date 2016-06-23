@@ -4,7 +4,6 @@ package com.student.gojava.module06;
  Класс Колёса (Товар).
  */
 public class Wheels extends Goods{
-    int radius;
-
+    String nameWheels;
 
 }

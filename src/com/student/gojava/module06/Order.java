@@ -1,7 +1,7 @@
 package com.student.gojava.module06;
 
 /**
- * Created by toporko on 22.06.2016.
+ Заказ
  */
 public class Order {
     Order order = new Order();
@@ -13,6 +13,8 @@ public class Order {
         public void delGoods() {
         };
 
-        public void cencelOrder(){};
+        public void cencelOrder(){
+
+        };
 
 }

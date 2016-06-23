@@ -24,18 +24,17 @@ public class Converter {
         try {
             double celsius = scanner.nextDouble();
 
-        Converter converter = new Converter();
+            Converter converter = new Converter();
 
-        double temperatureInFahrenheit = converter.converteCelsiusToFahrenheit(celsius);
-        System.out.println("Temperature in Fahrenheit : " + temperatureInFahrenheit);
+            double temperatureInFahrenheit = converter.converteCelsiusToFahrenheit(celsius);
+            System.out.println("Temperature in Fahrenheit : " + temperatureInFahrenheit);
 
-        double returnTemperatureInCelsius = converter.convertFahrenheitToCelsius(temperatureInFahrenheit);
-        System.out.println("Temperature in Celsius was: "+ returnTemperatureInCelsius);
+            double returnTemperatureInCelsius = converter.convertFahrenheitToCelsius(temperatureInFahrenheit);
+            System.out.println("Temperature in Celsius was: "+ returnTemperatureInCelsius);
 
         }catch (InputMismatchException e){
-            System.out.println("несоответствие типа вводимого значение");
+            System.out.println("Несоответствие типа вводимого значение");
         }
 
     }
 }
-

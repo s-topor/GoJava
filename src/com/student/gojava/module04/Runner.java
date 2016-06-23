@@ -1,8 +1,6 @@
 package com.student.gojava.module04;
 
-
 import java.util.InputMismatchException;
-
 
 public class Runner {
     public static void main(String[] args)  {
@@ -14,5 +12,4 @@ public class Runner {
         areaFigure.getAreaFigure();
     }
 }
-
 

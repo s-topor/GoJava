@@ -13,10 +13,7 @@ public class PersonExample {
         for (Person person : personsList){
             System.out.println(person);
         }
-        personsList
-                .stream()
-                .map(person -> person.getLastName())
-                .forEach(lastName -> System.out.println(lastName));
+        personsList.stream().map(person -> person.getLastName()).forEach(lastName -> System.out.println(lastName));
     }
 
 

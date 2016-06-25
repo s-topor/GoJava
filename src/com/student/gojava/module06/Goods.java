@@ -1,6 +1,5 @@
 package com.student.gojava.module06;
 
-import java.awt.*;
 import java.util.List;
 
 /**
@@ -8,7 +7,7 @@ import java.util.List;
  */
 public class Goods {
 
-    List<Carcase>carcaseList;
-    List<Wheels>wheelsList;
-    List<Motor>motorList;
+    List<BMW> bmwList;
+    List<Audi> audiList;
+    List<Mercedes> mercedesList;
 }

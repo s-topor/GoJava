@@ -7,14 +7,15 @@ import java.util.Scanner;
  */
 public class Client {
     public String firstName ;
+    int age;
     public int totalSumPurchases;
 
-    public  void totalSumPurchases() {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter client name ");
-        String firstName = scanner.nextLine();
-        Random randomCashClient = new Random();
-        int cash = randomCashClient.nextInt(200);
-        System.out.println( firstName + " have money " + cash + " y.e " );
-    }
+//    public  void totalSumPurchases() {
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.println("Enter client name ");
+//        String firstName = scanner.nextLine();
+//        Random randomCashClient = new Random();
+//        int cash = randomCashClient.nextInt(200);
+//        System.out.println( firstName + " have money " + cash + " y.e " );
+//    }
 }
